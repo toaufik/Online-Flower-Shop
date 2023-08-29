@@ -117,3 +117,24 @@ h1 {
     width: 85px;
     padding-bottom: 20px;
 }
+
+/* Deal Area */
+#deal-area {
+    background-color: #FEF6F8;
+    padding: 100px 0;
+}
+
+.deal-wrapper .intro-area {
+    margin: 0;
+}
+.intro-area p {
+    margin-bottom: 20px;
+}
+
+.deal-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
