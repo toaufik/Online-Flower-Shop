@@ -1,4 +1,45 @@
+/* Global Style */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #E55473;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+/* Banner Style */
+
+#banner-area {
+    background-color: #FCEEF1;
+}
+
+.banner-container {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 95px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1.1;
+    margin-bottom: 32px;
+}
+
+.banner-content p {
+    margin-bottom: 32px;
 }
