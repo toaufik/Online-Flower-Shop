@@ -99,61 +99,92 @@ h1 {
 /* Support Area */
 
 #support-area .section-wrapper {
-    background: #F4F4F4;
-    padding: 80px 0;
-    border-radius: 8px;
-    margin-bottom: 60px;
+	background: #f4f4f4;
+	padding: 80px 0;
+	border-radius: 8px;
+	margin-bottom: 60px;
 }
 
 .support-contents {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .single-support img {
-    width: 85px;
-    padding-bottom: 20px;
+	width: 85px;
+	padding-bottom: 20px;
 }
 
 /* Deal Area */
 #deal-area {
-    background-color: #FEF6F8;
-    padding: 100px 0;
+	background-color: #fef6f8;
+	padding: 100px 0;
 }
 
 .deal-wrapper .intro-area {
-    margin: 0;
+	margin: 0;
 }
 .intro-area p {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .deal-wrapper {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .accent_color {
-    color: #E55473;
+	color: #e55473;
 }
 
 /* Insta Area */
 
 #insta-area {
-    padding-top: 120px;
+	padding-top: 120px;
 }
 
 .ins-imgs {
-    display: flex;
-    column-gap: 24px;
+	display: flex;
+	column-gap: 24px;
 }
 
 #insta-area .section-wrapper {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
+}
+
+/* Newsletter Area */
+
+#newletter-area .section-wrapper {
+	background-image: url("../img/bg_newsletter.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 120px;
+	padding: 120px 0;
+}
+.form {
+	text-align: center;
+	width: 860px;
+	margin: 0 auto;
+}
+
+.form input[type="email"] {
+	width: 70%;
+	border: none;
+	padding: 15px;
+	border-radius: 8px;
+	color: rgba(39, 39, 39, 0.6);
+	font-size: 16px;
+}
+
+.form input[type="submit"] {
+	border: none;
+	padding: 10px 20px;
+	margin-left: 16px;
 }
