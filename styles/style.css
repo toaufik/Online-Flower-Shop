@@ -142,3 +142,18 @@ h1 {
 .accent_color {
     color: #E55473;
 }
+
+/* Insta Area */
+
+#insta-area {
+    padding-top: 120px;
+}
+
+.ins-imgs {
+    display: flex;
+    column-gap: 24px;
+}
+
+#insta-area .section-wrapper {
+    margin-bottom: 60px;
+}
