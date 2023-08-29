@@ -95,3 +95,25 @@ h1 {
 	font-weight: 700;
 	line-height: 35px;
 }
+
+/* Support Area */
+
+#support-area .section-wrapper {
+    background: #F4F4F4;
+    padding: 80px 0;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.support-contents {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.single-support img {
+    width: 85px;
+    padding-bottom: 20px;
+}
