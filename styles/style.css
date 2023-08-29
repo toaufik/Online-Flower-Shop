@@ -1,45 +1,97 @@
 /* Global Style */
 * {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #272727;
 }
 
 .btn {
-    display: inline-block;
-    font-size: 20px;
-    background-color: #E55473;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 40px;
-    border-radius: 8px;
+	display: inline-block;
+	font-size: 20px;
+	background-color: #e55473;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 8px;
+}
+
+.intro-area {
+	width: 594px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.intro-area h3 {
+	font-size: 40px;
+	font-weight: 800;
+	padding-bottom: 24px;
 }
 
 /* Banner Style */
 
 #banner-area {
-    background-color: #FCEEF1;
+	background-color: #fceef1;
 }
 
 .banner-container {
-    width: 1440px;
-    margin: 0 auto;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    column-gap: 95px;
+	width: 1440px;
+	margin: 0 auto;
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	column-gap: 95px;
 }
 
 h1 {
-    font-size: 80px;
-    line-height: 1.1;
-    margin-bottom: 32px;
+	font-size: 80px;
+	line-height: 1.1;
+	margin-bottom: 32px;
 }
 
 .banner-content p {
+	margin-bottom: 32px;
+}
+
+/* Feature Area */
+
+#feature-area {
+	padding: 150px 0 60px;
+}
+.section-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.flowers {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	column-gap: 24px;
+}
+
+.flower-wrapper {
+	background: #f2dee7;
+	padding: 110px 75px 0;
+	border-top-right-radius: 100%;
+	border-top-left-radius: 100%;
     margin-bottom: 32px;
+}
+
+.flower-wrapper img {
+	display: block;
+}
+
+.flower-name {
+	text-decoration-line: underline;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 35px;
 }
