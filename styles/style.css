@@ -118,6 +118,32 @@ h1 {
 	padding-bottom: 20px;
 }
 
+/* Testimonial Area */
+
+.testimonial-area {
+	text-align: center;
+	padding: 0px 0px 50px;
+}
+
+.testimonial-area .intro-area {
+	width: 850px;
+}
+
+.testimonial-area .intro-area p {
+	font-style: italic;
+}
+
+.author-img {
+	width: 125px;
+	border-radius: 100%;
+	padding: 3px;
+	border: 1px solid #ddd;
+}
+
+.author-name {
+	font-size: 22px;
+}
+
 /* Deal Area */
 #deal-area {
 	background-color: #fef6f8;
@@ -187,33 +213,6 @@ h1 {
 	border: none;
 	padding: 10px 20px;
 	margin-left: 16px;
-}
-
-/* Testimonial Area */
-
-/* Testimonial Area */
-
-.testimonial-area {
-    text-align: center;
-    padding: 0px 0px 50px;
-}
-
-.testimonial-area .intro-area {
-    width: 850px;
-}
-.testimonial-area .intro-area p {
-    font-style: italic;
-}
-
-.author-img {
-    width: 125px;
-    border-radius: 100%;
-    padding: 3px;
-    border: 1px solid #ddd;
-}
-
-.author-name {
-    font-size: 22px;
 }
 
 /* Footer Area */
