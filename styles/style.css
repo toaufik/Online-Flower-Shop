@@ -138,3 +138,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+.accent_color {
+    color: #E55473;
+}
